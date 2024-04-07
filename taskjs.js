@@ -1,5 +1,4 @@
 
-
 const task=document.getElementById('task')
 const description=document.getElementById('description')
 const newRow = document.getElementById('tab')
@@ -59,7 +58,6 @@ function startTimer(){
       timerCont.style.setProperty('background-color', 'rgb(69, 210, 69)')
     }
 }
-
 timerCont.addEventListener('click', startTimer)
 
 
